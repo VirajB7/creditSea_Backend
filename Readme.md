@@ -56,21 +56,22 @@ This application is a loan management system built with TypeScript and Node.js. 
    ```bash
       npm start
 
-##API Endpoints
-###Authentication
+## API Endpoints
+### Authentication
 
--Login
-   -POST /api/auth/login
-   -Request Body:
-   ```json
+- Login
+   -  POST /api/auth/login
+   - Request Body:
+ ```json
 {
   "email": "user@example.com",
   "password": "your_password"
 }
 ```
 
--Register User: POST /api/auth/register
--Request Body:
+- Register User:
+     - POST /api/auth/register
+     - Request Body:
 ```json
 
 {
@@ -80,9 +81,9 @@ This application is a loan management system built with TypeScript and Node.js. 
 }
 ```
 
--Loan Management
-   -Create Loan: POST /api/loans
-   -Request Body:
+- Loan Management
+   - Create Loan: POST /api/loans
+   - Request Body:
 ```json
 {
   "fullName": "John Doe",
@@ -97,18 +98,18 @@ This application is a loan management system built with TypeScript and Node.js. 
 }
 ```
 
-   -Get Loans: GET /api/loans
+   - Get Loans: GET /api/loans
 
-###Testing
+### Testing
 You can test the API endpoints using tools like Postman or Curl. Make sure to include the JWT token in the Authorization header for protected routes.
 
 
-###Acknowledgements
--Express.js
--TypeScript
--MongoDB
--Mongoose
--JSON Web Tokens
--bcrypt.js
+### Acknowledgements
+- Express.js
+- TypeScript
+- MongoDB
+- Mongoose
+- JSON Web Tokens
+- bcrypt.js
 
    
